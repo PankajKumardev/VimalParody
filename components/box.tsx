@@ -7,6 +7,9 @@ const Box = () => {
         <Image src={Vimal} alt="Picture of the author"  height={265} width={222} 
      className="h-full object-contain sticky top-0 right-0 invisible sm:visible"/>
         </div>
+        <div className='sm:invisible visible mt-20'>
+        <Image src={Vimal} alt="Picture of the author"  height={265} width={222}/>
+        </div>
         <div className='flex flex-col align-middle justify-center pl-4'>
         <h1 className='text-[17px] text-orange-950 font-bold tracking-tight mt-4 pl-11'>Elachi Pan Masala</h1>
         <p className='w-56 text-sm font-normal text-orange-800 pl-8 tracking-tight'>Elachi ka swaad, hasi ka tadka! Vimal Elachi—breath fresh nahi, mood fresh kare!</p>
