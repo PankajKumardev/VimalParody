@@ -4,8 +4,8 @@ const Box = () => {
   return (
     <div className='flex bg-orange-100 rounded-lg px-4 mt-4 h-56 ml-4 mr-4'>
         <div className=' '>
-        <Image src={Vimal} alt="Picture of the author"  height={265} width={222} 
-     className="h-full object-contain sticky top-0 right-0"/>
+        <Image src={Vimal} alt="Vimal"  height={265} width={222} 
+     className="h-full w-full object-contain sticky top-0 right-0"/>
         </div>
         <div className='flex flex-col align-middle justify-center pl-4'>
         <h1 className='text-[17px] text-orange-950 font-bold tracking-tight mt-4 pl-11'>Elachi Pan Masala</h1>
