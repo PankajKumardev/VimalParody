@@ -2,12 +2,12 @@ import Image from 'next/image'
 import Vimal from "../app/assets/card-image.png";
 const Box = () => {
   return (
-    <div className='flex bg-orange-100 rounded-lg px-4 mt-4 h-56 ml-4 '>
+    <div className='flex bg-orange-100 rounded-lg px-4 mt-4 h-56 ml-4 mr-4 '>
         <div className=' sm:w-full sm:h-full invisible sm:visible w-14'>
         <Image src={Vimal} alt="Picture of the author"  height={265} width={222} 
      className="h-full object-contain sticky top-0 right-0 invisible sm:visible"/>
         </div>
-        <div className='sm:invisible visible mt-20 w-52 sm:w-0'>
+        <div className='sm:invisible visible mt-20 w-52  h-full sm:w-0'>
         <Image src={Vimal} alt="Picture of the author"  height={265} width={222}/>
         </div>
         <div className='flex flex-col align-middle justify-center pl-4'>

@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className="text-4xl md:text-6xl font-bold text-orange-950 tracking-tighter">
           Bolo Zuba <span className="text-orange-50">Canceri</span>
         </h1>
-        <h3 className="text-orange-950 flex justify-center text-lg md:text-xl tracking-tight">
+        <h3 className="text-orange-950 flex justify-center text-base md:text-xl tracking-tight">
           Zindagi se bore? Tambaaku try karo!
         </h3>
         <div className="flex justify-center mt-4 text-sm">
